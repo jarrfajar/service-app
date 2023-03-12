@@ -1,0 +1,36 @@
+name: service_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  firebase_core: 2.1.1
+  firebase_auth: 4.1.1
+  firebase_storage: 11.0.4
+  cloud_firestore: 4.0.4
+  fluttertoast: ^8.1.1
+  salomon_bottom_bar: ^3.3.1
+  image_picker: ^0.8.6
+  flutter: 
+    sdk: flutter
+  dropdown_search: ^5.0.3
+  currency_text_input_formatter: ^2.1.8
+  flutter_datetime_picker: ^1.5.1
+  intl: ^0.17.0
+  flutter_slidable: ^2.0.0
+  connectivity_plus: ^2.3.9
+  flutter_rating_bar: ^4.0.1
+  readmore: ^2.2.0
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
